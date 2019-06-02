@@ -1,0 +1,331 @@
+body {
+	letter-spacing: 0.2rem;
+	position: relative;
+	background-color: white;
+	padding: 3rem;
+
+	font-family: 'Raleway', sans-serif;
+
+  width: 90vw;
+}
+
+h1 {
+	letter-spacing: 1.2rem;
+	font-weight: 600;
+	font-size: 3rem;
+	color: black;
+	position: absolute;
+	right: -39px;
+	top: 50rem;
+	margin-bottom: 2rem;
+	margin-left: rem;
+	font-weight: 800;
+	transition: opacity 5s;
+}
+
+h1 span {
+ font-size: 4rem;
+ line-height: 10rem;
+ display: block;
+ background: white;
+ mix-blend-mode: overlay;
+}
+
+.onzichtbaar {
+		 opacity: 0.11;
+}
+
+h2 {
+position: absolute;
+left: 30rem;
+}
+p {
+	font-size: 2rem;
+	line-height: 4rem;
+	color: white;
+}
+nav {
+	display: grid;
+	grid-template-columns:
+	margin-top: rem;
+	background-color: white;
+	margin-bottom: 3rem;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1rem;
+	margin-right: 3rem;
+	padding: 0.4rem;
+	text-align: left;
+}
+	a:hover {
+  color: #fab4d6;
+}
+
+button {
+	background-image: ()
+  background-repeat: no-repeat;
+	border: 0.1rem solid black;
+  margin-left: 18rem;
+	display: hidden;
+	position: absolute;
+	top: 10px;
+  cursor:pointer;
+  width: 18px;
+  height: 10px;
+  border: none;
+}
+
+#logos {
+	position: absolute;
+	left: 1rem;
+	top: 1rem;
+	border: 0.1rem solid black;
+	width: 2rem;
+  height: 3.5rem;
+}
+
+#hamburg {
+	width: 1rem;
+}
+
+.streep {
+	position: absolute;
+	right: 0rem;
+	top: 51.5rem;
+	width: 12rem;
+	height: 0.25rem;
+	background-color: black;
+
+}
+
+.menu {
+	position: fixed;
+	top: 1.8rem;
+	right: 3rem;
+}
+
+.topnav a {
+	font-weight: 600;
+  float: left;
+  display: inline;
+  color: black;
+  text-align: right;
+  text-decoration: none;
+  font-size: 0.9rem;
+
+}
+.topnav a:hover {
+	background-color:
+  background-img:linear-gradient(#DA4453 , #89216B);
+  color: pink;
+}
+.active {
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+
+
+.img {
+	position: absolute;
+	left: 20rem;
+	top: 1rem;
+}
+img {
+	max-width: 100%;
+	display: block;
+
+}
+.stien {
+  position: absolute;
+  left: -40px;
+  top: 300px;
+  z-index: 0.7;
+	height: 20rem;
+	padding: 2rem;
+	/*border-left: 0.4rem solid black;
+	border-top: 0.4rem solid black; */
+}
+.stien2 {
+  position: absolute;
+  left: 160px;
+  top: 374px;
+  z-index: 0.8;
+		padding: 2rem;
+
+}
+.foto1 {
+  position: absolute;
+  left: 74px;
+  top: 1100px;
+  z-index: 2;
+		padding: 2rem;
+	border-top: 0.2rem solid black;
+	border-right: 0.2rem solid black;
+}
+.website1 {
+  position: absolute;
+  left: 50px;
+  top: 1550px;
+  z-index: -3;
+		padding: 2rem;
+	border-top: 0.2rem solid black;
+	border-right: 0.2rem solid black;
+}
+
+.cv {
+  position: absolute;
+  left: 60px;
+  top: 910px;
+  z-index: -1;
+		padding: 2rem;
+	border-top: 0.2rem solid black;
+	border-left: 0.2rem solid black;
+}
+.foto3 {
+	position: absolute;
+  left: 150px;
+  top: 1900px;
+  z-index: 2;
+		padding: 2rem;
+	border-top: 0.2rem solid black;
+	border-left: 0.2rem solid black;
+}
+.foto2 {
+	position: absolute;
+  left: 50px;
+  top: 2240px;
+  z-index: 2;
+		padding: 2rem;
+	border-top: 0.2rem solid black;
+	border-left: 0.2rem solid black;
+}
+.foto4 {
+	position: absolute;
+  left: 250px;
+  top: 2550px;
+  z-index: 2;
+		padding: 2rem;
+	border-top: 0.2rem solid black;
+	border-left: 0.2rem solid black;
+}
+
+.portfoliopub {
+	position: absolute;
+  left: 50px;
+  top: 2900px;
+  z-index: 2;
+		padding: 2rem;
+	border-top: 0.2rem solid black;
+	border-left: 0.2rem solid black;
+}
+
+.pop {
+	position: absolute;
+  left: 200px;
+  top: 3200px;
+  z-index: 2;
+		padding: 2rem;
+	border-top: 0.2rem solid black;
+	border-left: 0.2rem solid black;
+}
+form {
+	position: absolute;
+	top: 240rem;
+	left: 10rem;
+	font-family: 'Raleway', sans-serif;
+
+}
+textarea {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-weight: 600;
+}
+input {
+	background-image: linear-gradient(0deg, #e2e2e2, #dbdbdb 50%, #d1d1d1 51%,#fefefe);
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-weight: 600;
+}
+@media (min-width: 60rem) {
+	img {
+		height: 5rem;
+		padding: 3rem;
+	}
+	#hamburg {
+		width: 1rem;
+		height: 1rem;
+	}
+
+
+	body {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	}
+	.stien {
+
+		 height:40rem;
+	}
+	.stien2 {
+		grid-column: 3;
+		grid-row: 1;
+	   height:50rem;
+	}
+	.foto1 {
+		grid-column: 1;
+		grid-row: 2;
+		 height:20rem;
+	}
+	.website1 {
+		grid-column: 3;
+		grid-row: 2;
+		 height:25rem;
+	}
+	.foto3 {
+		grid-column: 1;
+		grid-row: 4;
+		 height:20rem;
+	}
+	.foto2 {
+		grid-column: 3;
+		grid-row: 3;
+		 height:25rem;
+	}
+
+	.pop {
+		grid-column: 1;
+ 	 grid-row: 1;
+	  height:25rem;
+	}
+	.portfoliopub {
+		grid-column: ;
+ 	 grid-row: 5;
+	  height:25rem;
+	}
+ form {
+	 top: 280rem;
+ }
+nav {
+	position: absolute;
+	right: 3rem;
+}
+.menu {
+	top: 0rem;
+left: 150rem;
+
+}
+.naam {
+	left: 10px;
+}
+}
+#logo {
+	margin-left: 50rem;
+}
+}

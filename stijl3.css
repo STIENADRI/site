@@ -1,0 +1,272 @@
+body {
+	letter-spacing: 0.2rem;
+	position: relative;
+	background-color: white;
+	padding: 3rem;
+
+	font-family: 'Raleway', sans-serif;
+
+  width: 90vw;
+
+}
+
+h1 {
+	letter-spacing: 1.2rem;
+	font-weight: 600;
+	font-size: 2rem;
+	color: black;
+	position: absolute;
+	right: 140px;
+	top: 9rem;
+	margin-bottom: 2rem;
+	margin-left: rem;
+	font-weight: 800;
+}
+h2 {
+letter-spacing: 1.2rem;
+font-weight: 600;
+font-size: 2rem;
+color: black;
+position: absolute;
+right: 142px;
+top: 9.125rem;
+margin-bottom: 2rem;
+margin-left: rem;
+font-weight: 800;
+}
+p {
+	font-size: 2rem;
+	line-height: 4rem;
+	color: white;
+}
+nav {
+	display: grid;
+	grid-template-columns:
+	margin-top: rem;
+	background-color: white;
+	margin-bottom: 3rem;
+  margin-left: 15rem;;
+  margin-right: auto;
+
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1rem;
+	margin-right: 3rem;
+	padding: 0.4rem;
+	text-align: left;
+}
+	a:hover {
+  color: black;
+}
+
+button {
+	background-image: ()
+  background-repeat: no-repeat;
+	border: 0.1rem solid black;
+  margin-left: 18rem;
+	display: hidden;
+	position: absolute;
+	top: 10px;
+  cursor:pointer;
+  width: 18px;
+  height: 10px;
+  border: none;
+}
+
+
+#logos {
+	position: absolute;
+	left: 1rem;
+	top: 1rem;
+	border: 0.1rem solid black;
+	width: 2rem;
+  height: 3.5rem;
+}
+
+#hamburg {
+	width: 1rem;
+}
+
+.streep {
+	position: absolute;
+	right: 0rem;
+	top: 51.5rem;
+	width: 12rem;
+	height: 0.25rem;
+	background-color: black;
+
+}
+
+.menu {
+	position: fixed;
+	top: 1.8rem;
+	right: 3rem;
+}
+
+.topnav a {
+	font-weight: 600;
+  float: left;
+  display: inline;
+  color: black;
+  text-align: right;
+  text-decoration: none;
+  font-size: 0.9rem;
+
+}
+.topnav a:hover {
+	background-color:
+  background-img:linear-gradient(#DA4453 , #89216B);
+  color: pink;
+}
+.active {
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+
+.pinterest:hover {
+  animation-name: pinterest;
+	animation-duration: 0.8s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.facebook:hover {
+  animation-name: facebook;
+  animation-duration: 0.8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.instagram:hover {
+  animation-name: instagram;
+  animation-duration: 0.8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.vsco:hover {
+  animation-name: vsco;
+  animation-duration: 0.8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.pinterest, .facebook, .instagram, .vsco {
+  padding: 0.5rem;
+  margin-top: 10rem;
+  height: 5rem;
+
+}
+
+@keyframes pinterest {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@keyframes instagram {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@keyframes vsco {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@keyframes facebook {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@media (min-width:50rem) {
+	h1 {
+		left: 20rem;
+	}
+	h2 {
+		left: 20rem;
+	}
+.pinterest {
+	position: absolute;
+	left: 30rem;
+}
+.vsco {
+	position: absolute;
+	left: 22rem;
+}
+.instagram {
+		position: absolute;
+		left: 30rem;
+		top: 18rem;
+}
+.facebook {
+	position: absolute;
+	left: 22rem;
+	top: 18rem;
+}
+
+}
+@media (min-width: 80rem) {
+	h1 {
+		left: 40rem;
+	}
+	h2 {
+		left: 40rem;
+	}
+	.pinterest {
+		position: absolute;
+		left: 50rem;
+	}
+	.vsco {
+		position: absolute;
+		left: 42rem;
+	}
+	.instagram {
+			position: absolute;
+			left: 50rem;
+			top: 18rem;
+	}
+	.facebook {
+		position: absolute;
+		left: 42rem;
+		top: 18rem;
+	}
+
+}
